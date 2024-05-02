@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { useDispatch, useSelector  } from 'react-redux';
 import {updateName,updateMobile,deposit,withdraw, addTrans} from './Store'
-
+// new comment addaed
 function Form() {
 
     const data = useSelector((state) => state.user)
